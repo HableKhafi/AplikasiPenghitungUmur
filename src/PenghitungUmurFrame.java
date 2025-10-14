@@ -23,6 +23,7 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
      */
     public PenghitungUmurFrame() {
         initComponents();
+        setLocationRelativeTo(null);
         helper = new PenghitungUmurHelper();
 
     }
