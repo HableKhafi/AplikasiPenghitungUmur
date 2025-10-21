@@ -156,8 +156,8 @@ public class PenghitungUmurFrame extends javax.swing.JFrame {
         getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_START);
 
         jPanel2.setBackground(new java.awt.Color(49, 49, 49));
-        jPanel2.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createEmptyBorder(10, 15, 10, 15), javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255))));
-        jPanel2.setLayout(new java.awt.GridLayout());
+        jPanel2.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createEmptyBorder(10, 15, 10, 15), javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)), "Peristiwa Penting", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Poppins Black", 0, 18), new java.awt.Color(255, 255, 255)))); // NOI18N
+        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
 
         txtAreaPeristiwa.setEditable(false);
         txtAreaPeristiwa.setColumns(20);

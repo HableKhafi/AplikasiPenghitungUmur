@@ -223,10 +223,16 @@
               <Border PropertyName="outside" info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
                 <EmptyBorder bottom="10" left="15" right="15" top="10"/>
               </Border>
-              <Border PropertyName="inside" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                <LineBorder>
+              <Border PropertyName="inside" info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Peristiwa Penting">
+                  <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder>
+                      <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+                    </LineBorder>
+                  </Border>
+                  <Font PropertyName="font" name="Poppins Black" size="18" style="0"/>
                   <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
-                </LineBorder>
+                </TitledBorder>
               </Border>
             </CompoundBorder>
           </Border>
